@@ -28,6 +28,10 @@
                         btn_first: 'rgb(171, 239, 95)',
                         btn_second: 'rgb(28, 28, 28)',
                         btn_third: 'rgba(171, 239, 95, 0.5)',
+                        pastel_pink: 'rgb(231, 193, 211)',
+                        pastel_yellow: 'rgb(239, 218, 110)',
+                        pastel_green: 'rgb(164, 218, 195)',
+                        pastel_blue: 'rgb(119, 170, 234)',
                     },
                     fontFamily: {
                         Manrope: 'Manrope',
@@ -41,12 +45,12 @@
     </script>
 </head>
 
-<body class="font-Manrope text-primary">
+<body class="font-Manrope text-primary items-center">
 
     <header class="w-min lg:w-full bg-gradient-to-b from-slate-50 to-white">
 
         <!-- Nav Section start -->
-        <nav class="w-11/12 mx-auto">
+        <nav class="lg:w-11/12 mx-auto">
             <div class="navbar">
                 <div class="navbar-start gap-28">
 
@@ -104,7 +108,7 @@
         <!-- Hero section start -->
         <div class="hero">
             <div class="hero-content text-center">
-                <div class="w-11/12 mx-auto">
+                <div class="lg:w-11/12 mx-auto">
                     <div class="lg:w-1/3 mx-auto py-5"><img src="./assets/banner.png" alt=""></div>
                     <h1 class="text-7xl font-extrabold py-5">A barn house of this design has a striking appearance</h1>
                     <p class="py-6">
@@ -124,10 +128,10 @@
 
     <main>
 
-        <!-- We design thoughtful, liveable spaces section start -->
+        <!-- About Us section start -->
         <section class="mb-4 lg:mb-20">
             <div class="m-5 hidden lg:flex"><img src="./assets/vector.png" alt=""></div>
-            <div class="w-11/12 ml-20 justify-between text-center lg:flex lg:text-left lg:mx-auto items-center">
+            <div class="w-11/12 justify-between text-center lg:flex lg:text-left mx-auto items-center">
                 <div class="space-y-4">
                     <button class="px-4 py-2 mt-4 lg:mt-0 rounded-full btn-ghost bg-white text-secondary font-bold"><i
                             class="fa-solid fa-arrow-right text-lg"></i> About Us</button>
@@ -159,11 +163,53 @@
                 </div>
             </div>
         </section>
-        <!-- We design thoughtful, liveable spaces section end -->
+        <!-- About Us section end -->
 
+        <!-- How we works section start -->
         <section>
+            <div class="lg:w-11/12 mx-auto text-center space-y-5">
+                <button class="px-4 py-2 rounded-full btn-ghost bg-white text-secondary font-bold"><i
+                        class="fa-solid fa-arrow-right text-lg"></i> How we works</button>
+                <h2 class="font-bold text-4xl text-primary">Our Works Process</h2>
+                <p class="font-medium text-secondary w-11/12 lg:max-w-2xl mx-auto">The barn house captivates with its
+                    blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
 
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 w-11/12 mx-auto mb-24 mt-8">
+                <div class="bg-pastel_pink rounded-2xl p-6 space-y-2">
+                    <img src="./assets/concept.png" alt="Concept">
+                    <h2 class="font-extrabold text-xl text-btn_second">Concept</h2>
+                    <p class="font-medium text-secondary lg:w-9/12">The barn house captivates with its blend of rustic
+                        charm and modern.</p>
+                </div>
+                <div class="bg-pastel_yellow rounded-2xl p-6 space-y-2">
+                    <img src="./assets/flow-chart.png" alt="Flow-Chart">
+                    <h2 class="font-extrabold text-xl text-btn_second">Design Process</h2>
+                    <p class="font-medium text-secondary lg:w-9/12">The barn house captivates with its blend of rustic
+                        charm and modern.</p>
+                </div>
+                <div class="bg-pastel_green rounded-2xl p-6 space-y-2">
+                    <img src="./assets/vision.png" alt="Vision">
+                    <h2 class="font-extrabold text-xl text-btn_second">Supervision</h2>
+                    <p class="font-medium text-secondary lg:w-9/12">The barn house captivates with its blend of rustic
+                        charm and modern.</p>
+                </div>
+                <div class="bg-pastel_blue rounded-2xl p-6 space-y-2">
+                    <img src="./assets/budget-planning.png" alt="Budget-Planning">
+                    <h2 class="font-extrabold text-xl text-btn_second">Budget Planning</h2>
+                    <p class="font-medium text-secondary lg:w-9/12">The barn house captivates with its blend of rustic
+                        charm and modern.</p>
+                </div>
+            </div>
         </section>
+        <!-- How we works section end -->
+
+        <!-- Portfolio section start -->
+        <section>
+            
+        </section>
+        <!-- Portfolio section end -->
+
     </main>
 
     <footer></footer>
